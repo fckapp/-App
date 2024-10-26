@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet, Dimensions, SafeAreaView, Image } from 'react-native';
-import HomeCustomHeader from '../components/HomeCustomHeader';
+import HomeCustomHeader from '../components/HomeCustomHeader.js';
 // import Carousel from 'react-native-snap-carousel';
 
 const HomeScreen = () => {

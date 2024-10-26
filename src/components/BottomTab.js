@@ -2,12 +2,12 @@
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Text } from 'react-native';  // Text import 추가
-import HomeScreen from '../screens/HomeScreen';
-import WishlistScreen from '../screens/WishlistScreen';
-import ScheduleScreen from '../screens/ScheduleScreen';
-import CommunityScreen from '../screens/CommunityScreen';
-import MyPageScreen from '../screens/MyPageScreen';
-import Icon from 'react-native-vector-icons/Feather';
+import HomeScreen from '../screens/HomeScreen.js';
+import WishlistScreen from '../screens/WishlistScreen.js';
+import ScheduleScreen from '../screens/ScheduleScreen.js';
+import CommunityScreen from '../screens/CommunityScreen.js';
+import MyPageScreen from '../screens/MyPageScreen.js';
+import Icon from 'react-native-vector-icons/Feather.js';
 
 
 const Tab = createBottomTabNavigator();
